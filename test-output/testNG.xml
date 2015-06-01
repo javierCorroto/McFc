@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests">
+    <test name="Note4Curve">
+   <parameter name="Device_ID" value="dd69d033" />
+      <classes>
+         <class name="com.mo2o.mcfc.testcases.DatosExistentes" />
+         <!--
+      <methods> <include name="TC002"/> </methods>
+      -->
+      </classes>
+   </test>
+<test name="SGSV 5.0">
+   <parameter name="Device_ID" value="a10796b7" />
+      <classes>
+          <class name="com.mo2o.mcfc.testcases.DatosExistentes" />
+          <!--
+      <methods> <include name="TC002"/> </methods > 
+      -->
+      </classes>
+   </test>
+<test name="Nexus5Blanco">
+<parameter name="Device_ID" value="030ed56ad02398ac" />
+   <classes>
+       <class name="com.mo2o.mcfc.testcases.DatosExistentes" />
+       <!--
+ <methods> <include name="TC002"/> </methods>
+ -->
+   </classes>
+</test>
+</suite>
+
+
+
